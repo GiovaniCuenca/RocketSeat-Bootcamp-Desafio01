@@ -1,0 +1,198 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2019-08-06T18:26:45.345Z",
+  "__export_source": "insomnia.desktop.app:v6.5.4",
+  "resources": [
+    {
+      "_id": "req_4a5d51e468fb4a3ca3d639216b933058",
+      "authentication": {},
+      "body": {},
+      "created": 1565049625875,
+      "description": "",
+      "headers": [],
+      "isPrivate": false,
+      "metaSortKey": -1565049625876,
+      "method": "GET",
+      "modified": 1565110750440,
+      "name": "Listagem de um projeto",
+      "parameters": [],
+      "parentId": "wrk_e48d86939a0e41dd8238d6838120e96b",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "http://localhost:3000/projects/0",
+      "_type": "request"
+    },
+    {
+      "_id": "wrk_e48d86939a0e41dd8238d6838120e96b",
+      "created": 1565047776424,
+      "description": "Desafio 01 - Bootcamp da RocketSeat",
+      "modified": 1565097961754,
+      "name": "Bootcamp Desafio01",
+      "parentId": null,
+      "_type": "workspace"
+    },
+    {
+      "_id": "req_5c7a126fb38443af9b786c87e1f18b3c",
+      "authentication": {},
+      "body": {},
+      "created": 1565049991023,
+      "description": "",
+      "headers": [],
+      "isPrivate": false,
+      "metaSortKey": -1565049587411.5,
+      "method": "GET",
+      "modified": 1565050098726,
+      "name": "Listagem de todos os projetos",
+      "parameters": [],
+      "parentId": "wrk_e48d86939a0e41dd8238d6838120e96b",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "http://localhost:3000/projects",
+      "_type": "request"
+    },
+    {
+      "_id": "req_c9648414cded46f1bb8b75fd2d11ac1b",
+      "authentication": {},
+      "body": {
+        "mimeType": "application/json",
+        "text": "  {\n    \"id\": \"3\",\n    \"title\": \"Bootcamp Desafio 01\"\n  }"
+      },
+      "created": 1565049548947,
+      "description": "",
+      "headers": [
+        {
+          "id": "pair_933fdfe0116348fdb2e53164bead143b",
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "isPrivate": false,
+      "metaSortKey": -1565049577795.375,
+      "method": "POST",
+      "modified": 1565110950220,
+      "name": "Criar projeto",
+      "parameters": [],
+      "parentId": "wrk_e48d86939a0e41dd8238d6838120e96b",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "http://localhost:3000/projects",
+      "_type": "request"
+    },
+    {
+      "_id": "req_c0ee65ec98f54bf39c9bbd6cbbfb687b",
+      "authentication": {},
+      "body": {
+        "mimeType": "application/json",
+        "text": "  {\n    \"tasks\": \"Teste\"\n  }"
+      },
+      "created": 1565105804716,
+      "description": "",
+      "headers": [
+        {
+          "id": "pair_933fdfe0116348fdb2e53164bead143b",
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "isPrivate": false,
+      "metaSortKey": -1565049572987.3125,
+      "method": "POST",
+      "modified": 1565110016387,
+      "name": "Criar Tasks para Projetos Existentes",
+      "parameters": [],
+      "parentId": "wrk_e48d86939a0e41dd8238d6838120e96b",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "http://localhost:3000/projects/3/tasks",
+      "_type": "request"
+    },
+    {
+      "_id": "req_1dd98720669a4de1a94a41975def72fb",
+      "authentication": {},
+      "body": {
+        "mimeType": "application/json",
+        "text": "  {\n    \"title\": \"Bora Certificar!\"\n  }"
+      },
+      "created": 1565098430115,
+      "description": "",
+      "headers": [
+        {
+          "id": "pair_5072827a9e6e439fbd470d7de98b4b3b",
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "isPrivate": false,
+      "metaSortKey": -1565049568179.25,
+      "method": "PUT",
+      "modified": 1565110032548,
+      "name": "Alterar Titulo",
+      "parameters": [],
+      "parentId": "wrk_e48d86939a0e41dd8238d6838120e96b",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "http://localhost:3000/projects/0",
+      "_type": "request"
+    },
+    {
+      "_id": "req_82524a878c754afb92c5eef80ba4d167",
+      "authentication": {},
+      "body": {},
+      "created": 1565104783894,
+      "description": "",
+      "headers": [],
+      "isPrivate": false,
+      "metaSortKey": -1565049568129.25,
+      "method": "DELETE",
+      "modified": 1565110961522,
+      "name": "Deletar Projeto por ID",
+      "parameters": [],
+      "parentId": "wrk_e48d86939a0e41dd8238d6838120e96b",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "http://localhost:3000/projects/2",
+      "_type": "request"
+    },
+    {
+      "_id": "env_ae16721ce91e5de61d3d7cdd1b93fcc14bd4b3ba",
+      "color": null,
+      "created": 1565047776453,
+      "data": {},
+      "dataPropertyOrder": null,
+      "isPrivate": false,
+      "metaSortKey": 1565047776453,
+      "modified": 1565047776453,
+      "name": "Base Environment",
+      "parentId": "wrk_e48d86939a0e41dd8238d6838120e96b",
+      "_type": "environment"
+    },
+    {
+      "_id": "jar_ae16721ce91e5de61d3d7cdd1b93fcc14bd4b3ba",
+      "cookies": [],
+      "created": 1565047776457,
+      "modified": 1565047776457,
+      "name": "Default Jar",
+      "parentId": "wrk_e48d86939a0e41dd8238d6838120e96b",
+      "_type": "cookie_jar"
+    }
+  ]
+}
