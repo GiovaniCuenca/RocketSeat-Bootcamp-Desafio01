@@ -28,5 +28,5 @@
 
 > Crie um middleware global chamado em todas requisições que imprime (console.log) uma contagem de quantas requisições foram feitas na aplicação até então;
 
-##Challenge Completed :exclamation:
+## Challenge Completed :pushpin:
 
